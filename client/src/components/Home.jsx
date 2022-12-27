@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from "./Navbar"
-import Cards from "./Cards";
+import MoviesList from "./MoviesList";
 
 function Home() {
   return (
     <div>
       <Navbar/>
-      <Cards />
+      <MoviesList />
     </div>
   )
 }

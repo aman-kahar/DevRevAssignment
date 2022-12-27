@@ -2,10 +2,10 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
-function BasicExample({props}) {
-  const {title,duration,img} = props
+function BasicExample({movie}) {
+  const {title,duration,img} = movie
   return (
-    <Card style={{ width: '18rem', margin: '30px' }}>
+    <Card style={{ width: '18rem', margin: '20px'}}>
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
